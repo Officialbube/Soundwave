@@ -2,7 +2,7 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 // Replace with your app's client ID, redirect URI and desired scopes
 const clientId = "fabb7f18d5b441539bb90c2a94367a4c";
-const redirectUri = "https://soundwaveapp.netlify.app/";
+const redirectUri = "https://soundwave-7iku0sjm4-officialbube.vercel.app/";
 const scopes = [
   "user-read-currently-playing",
   "user-read-recently-played",
