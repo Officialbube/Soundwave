@@ -1,0 +1,40 @@
+.footer{
+    
+    border: 1px solid;
+    border-radius: 20px;
+    height: 100px;
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__center{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.footer__right{
+    display: flex;
+    align-items: center;
+}
+.volume{
+    
+    height: 2px;
+    
+}
+.duration{
+    width: 100%;
+    height: 2px;
+    margin: 0 20px;
+}

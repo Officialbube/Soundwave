@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .item {
+    grid-column: 1 / span 1;
+  }
+  
+  .item:nth-child(1) {
+    grid-row: 1 / span 1;
+  }
+  
+  .item:nth-child(2) {
+    grid-row: 2 / span 1;
+  }
+  
+  .item:nth-child(3) {
+    grid-row: 3 / span 1;
+  }
+  
+  .item:nth-child(4) {
+    grid-row: 1 / span 1;
+  }
+  
+  .item:nth-child(5) {
+    grid-row: 2 / span 1;
+  }
+  
+  .item:nth-child(6) {
+    grid-row: 3 / span 1;
+  }
+  
+.shortcut-details{
+    margin-top: 30px;
+}
+.shortcut-details div{
+    
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}

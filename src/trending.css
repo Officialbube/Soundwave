@@ -1,0 +1,54 @@
+.trending-container{
+    margin-top: 30px;
+}
+.trend-title{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-card{
+    background: linear-gradient(to right, rgb(255, 255, 255, 1),rgb(255, 255, 255, 0)), url("/public/assets/images/buju.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.more{
+    display: flex;
+    align-items: center;
+}
+.hero-card h2{
+    margin-top: 10px;
+    font-size: 40px;
+}
+.hero-card span{
+    display: block;
+    margin-top: 5px;
+}
+.hero-card button{
+    margin-top: 10px;
+}
+
+.play{
+    width: 60px;
+}
+.follow{
+    width: 80px;
+    margin-left: 5px;
+}
+button{
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}

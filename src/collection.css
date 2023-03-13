@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.collection-container nav a{
+  display: block;
+  margin-bottom: 20px;
+  
+  border-radius: 10px;
+  padding: 10px;
+  color: #CCCCCD;
+}
+.collection-container nav a:hover{
+  background-color: #15111E;
+  color: #fff;
+}

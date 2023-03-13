@@ -1,0 +1,7 @@
+.playlist-container{
+    margin-top: 30px;
+}
+.playlist-header{
+    display: flex;
+    justify-content: space-between;
+}

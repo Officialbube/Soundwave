@@ -1,0 +1,21 @@
+.favArtist-container{
+    margin-top: 50px;
+}
+.favArtist-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.favArtist-profile{
+    display: flex;
+    align-items: center;
+}
+.favArtist-image{
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.favArtist-song{
+    margin-left: 5px;
+}
